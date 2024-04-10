@@ -3721,7 +3721,6 @@ input[type="button"].btn-block {
   border-bottom-right-radius: 0.2rem; }
 
 .badge {
-  width:220px;
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
@@ -7425,18 +7424,18 @@ a.text-white:hover, a.text-white:focus {
 aside .profile-img-wrapper {
   text-align: center; }
   aside .profile-img-wrapper img {
-    width: 150px;
-    height: 150px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%; }
 
 aside .profile-name {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 600;
   text-align: center;
   line-height: 30px; }
 
 aside .profile-designation {
-  padding: 5px 26px;
+  padding: 5px 25px;
   font-size: 12px;
   line-height: 20px;
   font-weight: 500;
@@ -7519,7 +7518,7 @@ aside .widget {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
 
 .btn-download-cv {
-  padding: 4px 50px; }
+  padding: 6px 30px; }
 
 .btn-hire-me {
   font-size: 8px;
@@ -7533,7 +7532,6 @@ header {
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #f3f3f3;
-  justify-content:flex-end;
   z-index: 1000; }
 
 .collapsible-nav {
@@ -7544,7 +7542,7 @@ header {
   margin-right: 10px;
   transition: width 0.6s ease-in-out; }
   .collapsible-nav.show {
-    width: 460px; }
+    width: 365px; }
   @media (max-width: 991px) {
     .collapsible-nav {
       position: fixed;
@@ -7555,7 +7553,7 @@ header {
       top: 71px;
       align-items: flex-start;
       background-color: #ffffff;
-      margin-right: 100;
+      margin-right: 0;
       padding-left: 24px;
       padding-right: 24px;
       width: 200px;
@@ -7564,8 +7562,7 @@ header {
       box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
       .collapsible-nav.show {
         transform: translateX(0%);
-        width: 200px;
-      } }
+        width: 200px; } }
   .collapsible-nav .nav-link {
     font-size: 12px;
     font-weight: 600;
@@ -7617,23 +7614,17 @@ header {
   @media (max-width: 767px) {
     .content-wrapper {
       flex-direction: column; } }
-.twitter-timeline-div{
-  height: 410px;
-  overflow: scroll;
-}
+
 aside {
-  padding-right: 37px;
-  min-width: 240px;
-  max-width: 240px;
-}
+  padding-right: 57px;
+  min-width: 240px; }
   @media (max-width: 767px) {
     aside {
       width: 100%;
       padding-right: 0; } }
 
 main {
-  flex-grow: 1;
-}
+  flex-grow: 1; }
 
 main {
   padding: 36px 60px 24px;
@@ -7650,14 +7641,12 @@ main {
     text-transform: uppercase;
     margin-bottom: 2.125rem; }
   main .section-subtitle {
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: 500;
     line-height: 1;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0.525rem;
-  margin-top: 0.525rem;}
+    color: #0067f6; }
   main p {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.538;
     font-weight: 300; }
   main .intro-section {
@@ -8162,12 +8151,5 @@ main {
     transform: rotate3d(0, 0, 0, 0deg); }
   to {
     transform: rotate3d(0, 1, 0, 104deg); } }
-.fa-scholar {
-  content: url('/assets/images/google-scholar.svg');
-  height: 1em;
-  width: auto;
-}
-.space-p{
-  margin-bottom: 5px;
-}
+
 /*# sourceMappingURL=live-resume.css.map */
