@@ -3744,8 +3744,8 @@ input[type="button"].btn-block {
   top: -1px; }
 
 .badge-pill {
-  padding-right: 0.6em;
-  padding-left: 0.6em;
+  padding-right: 0.7em;
+  padding-left: 0.7em;
   border-radius: 10rem; }
 
 .badge-primary {
@@ -7424,8 +7424,8 @@ a.text-white:hover, a.text-white:focus {
 aside .profile-img-wrapper {
   text-align: center; }
   aside .profile-img-wrapper img {
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%; }
 
 aside .profile-name {
@@ -7463,10 +7463,10 @@ aside .widget {
   text-align: center;
   margin-bottom: 28px; }
   aside .widget .widget-title {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
   aside .widget .widget-content {
     font-size: 13px; }
     aside .widget .widget-content p {
@@ -7564,7 +7564,7 @@ header {
         transform: translateX(0%);
         width: 200px; } }
   .collapsible-nav .nav-link {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: #000000;
     text-transform: uppercase;
@@ -7641,12 +7641,12 @@ main {
     text-transform: uppercase;
     margin-bottom: 2.125rem; }
   main .section-subtitle {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1;
     color: #0067f6; }
   main p {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.538;
     font-weight: 300; }
   main .intro-section {
@@ -7691,24 +7691,24 @@ main {
         padding-bottom: 0; }
       main .time-line-item .badge {
         padding: 6px 10px;
-        font-size: 8px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 1;
         border-radius: 2px;
         margin-bottom: 8px; }
       main .time-line-item-title {
-        font-size: 12px;
+        font-size: 17px;
         font-weight: 700;
         line-height: 1;
         margin-bottom: 2px; }
       main .time-line-item-subtitle {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 500;
         line-height: 1.6;
         color: #a7a7a7;
         margin-bottom: 3px; }
       main .time-line-item-content {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 300;
         line-height: 1.6;
         margin-bottom: 0; }
@@ -7958,12 +7958,12 @@ main {
       main .contact-card {
         width: 100%; } }
     main .contact-card-title {
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 700;
       line-height: 1;
       margin-bottom: 0; }
     main .contact-card-content {
-      font-size: 12px;
+      font-size: 14px;
       line-height: 1.83;
       margin-bottom: 0; }
   main .contact-form {
@@ -7991,17 +7991,6 @@ main {
       background-color: #f3f3f3;
       padding: 12px 14px;
       color: #000000;
-      font-size: 8px;
-      line-height: 1.5;
-      min-height: 36px; }
-    main .contact-form .form-submit-btn {
-      border-radius: 0;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 10px 29px; }
-  main .location-section {
-    margin-bottom: 66px; }
-    main .location-section .section-title {
       font-size: 14px;
       font-weight: 700;
       line-height: 1.9;
