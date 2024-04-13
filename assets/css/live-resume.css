@@ -7424,8 +7424,8 @@ a.text-white:hover, a.text-white:focus {
 aside .profile-img-wrapper {
   text-align: center; }
   aside .profile-img-wrapper img {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%; }
 
 aside .profile-name {
@@ -7475,7 +7475,7 @@ aside .widget {
         margin-bottom: 10px; }
   aside .widget.card {
     border: 0;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
     aside .widget.card .widget-title {
       color: #0067f6; }
@@ -7616,8 +7616,8 @@ header {
       flex-direction: column; } }
 
 aside {
-  padding-right: 57px;
-  min-width: 240px; }
+  padding-right: 47px;  /* This is for the padding in the right*/
+  min-width: 300px; }
   @media (max-width: 767px) {
     aside {
       width: 100%;
@@ -7643,7 +7643,7 @@ main {
   main .section-subtitle {
     font-size: 18px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 2;
     color: #0067f6; }
   main p {
     font-size: 16px;
@@ -7707,6 +7707,12 @@ main {
         line-height: 1.6;
         color: #a7a7a7;
         margin-bottom: 3px; }
+      /*main .time-line-item-subsubtitle {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.6;
+        color: #a7a7a7;
+        margin-bottom: 3px; }*/
       main .time-line-item-content {
         font-size: 15px;
         font-weight: 300;
