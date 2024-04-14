@@ -19,9 +19,9 @@
         <nav class="collapsible-nav" id="collapsible-nav">
             <a href="index.html" class="nav-link">HOME</a>
             <a href="resume.html" class="nav-link">RESUME</a>
-            <a href="publications.html" class="nav-link">PUBLICATIONS</a>
+            <a href="publications.html" class="nav-link active">PUBLICATIONS</a>
             <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
-            <a href="contact.html" class="nav-link active">CONTACT</a>
+            <a href="contact.html" class="nav-link">CONTACT</a>
         </nav>
         <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
             data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
@@ -49,10 +49,11 @@
                     <p>MAIL: skalogerakis97@gmail.com</p>
                     <p>Location : Heraklion, Greece</p>
                     <a href="https://drive.google.com/file/d/1NuZ6NVea4wis_rRMZZOkFJTbaF0L7Q26/view?usp=sharing">
-                        <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download" class="btn-img">Resume 
-                        </button>
+                        <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
+                        class="btn-img">Resume</button>
                     </a>
                 </div>
+
             </div>
             <div class="widget card">
                 <div class="card-body">
@@ -77,54 +78,23 @@
             </div>
         </aside>
         <main>
-            <section class="contact-section">
-                <h2 class="section-title">CONTACT</h2>
-                <p class="mb-4">If you are interested in any of projects, don't hesitate to get in touch!</p>
-                
-                <div class="contact-cards-wrapper">
-                    <div class="contact-card">
-                        <h6 class="contact-card-title">PHONE</h6>
-                        <p class="contact-card-content">(+30)6959472839</p>
-                    </div>
-                    <div class="contact-card">
-                        <h6 class="contact-card-title">EMAIL</h6>
-                        <p class="contact-card-content">skalogerakis97@gmail.com</p>
+            <section class="resume-section">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="section-title">PUBLICATIONS</h2>
+                        <ul>
+                            <li><b>S. Kalogerakis</b> and K. Magoutis, <em><a href="https://dl.acm.org/doi/10.1145/3583678.3596897">Discovery of Breakout Patterns in Financial Tick Data via Parallel Stream Processing with In-Order Guarantees</a></em>, in the 17th ACM International Conference on Distributed and Event-Based Systems, Neuchatel, Switzerland, June 2023</li>
+                            <li><b>S. Kalogerakis</b>, A. Papaioannou and K. Magoutis, <em><a href="https://dl.acm.org/doi/10.1145/3524860.3539649">Efficient Processing of High-Volume Tick Data with Apache Flink for the DEBS 2022 Grand Challenge</a></em>, in the 16th ACM International Conference on Distributed and Event-Based Systems, Copenhagen, Denmark, June 2022 <b>Grand Challenge Audience Award!</b></li> 
+                        </ul>   
                     </div>
                 </div>
-
-                <form action="https://formspree.io/f/xjvnpoqy" method="post" class="contact-form">
-                    <div class="form-group form-group-name">
-                      <label for="name" class="sr-only">Name</label>
-                      <input type="text" name="name" id="name" class="form-control" placeholder="NAME">
-                    </div>
-                    <div class="form-group form-group-email">
-                        <label for="email" class="sr-only">Email</label>
-                        <input type="email" name="email" id="email" class="form-control" placeholder="EMAIL">
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="sr-only">Message</label>
-                        <textarea name="message" id="message" class="form-control" placeholder="MESSAGE" rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary form-submit-btn">SEND MESSAGE</button>
-                </form>
-
             </section>
-
-            <!-- <section class="location-section">
-                <h5 class="section-title">MY LOCATION</h5>
-
-                <div class="map-wrapper embed-responsive embed-responsive-16by9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4499713395226!2d77.49760858568716!3d13.070644079849927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae2324ca579629%3A0xa6f9716812cb8b11!2sSapthagiri%20Super%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1696077886463!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section> -->
-
-            <!-- <footer>Live Resume @ <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer">BootstrapDash</a>. All Rights Reserved 2020</footer> -->
+            
         </main>
     </div>
     <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
     <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/entry/jq.entry.min.js"></script>
     <script src="assets/js/live-resume.js"></script>
 </body>
 
