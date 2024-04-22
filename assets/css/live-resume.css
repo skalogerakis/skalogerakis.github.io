@@ -7684,7 +7684,10 @@ main {
         border-radius: 50%;
         background-color: #979797; }
       main .time-line-item:nth-child(2n)::after {
-        background-color: #0067f6; }
+        background-color: #0067f6; BLUE DOTS 
+      }
+      /*main .time-line-item:first-child::after {
+        background-color: #0067f6 } TO SET ONLY THE FIRST ONE*/
       main .time-line-item:not(:first-child)::after {
         top: 5px; }
       main .time-line-item:last-child {
@@ -7707,12 +7710,6 @@ main {
         line-height: 1.6;
         color: #a7a7a7;
         margin-bottom: 3px; }
-      /*main .time-line-item-subsubtitle {
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 1.6;
-        color: #a7a7a7;
-        margin-bottom: 3px; }*/
       main .time-line-item-content {
         font-size: 15px;
         font-weight: 300;
@@ -7942,7 +7939,7 @@ main {
   main .contact-section {
     margin-bottom: 31px; }
     main .contact-section p {
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 300; }
   main .contact-cards-wrapper {
     display: flex;
