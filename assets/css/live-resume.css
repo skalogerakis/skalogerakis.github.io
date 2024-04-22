@@ -3750,7 +3750,7 @@ input[type="button"].btn-block {
 
 .badge-primary {
   color: #ffffff;
-  background-color: #0067f6; }
+  background-color: #0F50B2; }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #ffffff;
     background-color: #0052c3; }
@@ -7682,9 +7682,9 @@ main {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #979797; }
+        background-color: #0F50B2; }
       main .time-line-item:nth-child(2n)::after {
-        background-color: #0067f6; BLUE DOTS 
+       background-color: #0F50B2; /* BLUE DOTS*/ 
       }
       /*main .time-line-item:first-child::after {
         background-color: #0067f6 } TO SET ONLY THE FIRST ONE*/
